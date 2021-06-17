@@ -1,0 +1,15 @@
+18:42:39 **** Incremental Build of configuration Debug for project Modified_Kaprekar ****
+make all 
+Building file: ../src/Modified_Kaprekar.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Modified_Kaprekar.d" -MT"src/Modified_Kaprekar.o" -o "src/Modified_Kaprekar.o" "../src/Modified_Kaprekar.c"
+Finished building: ../src/Modified_Kaprekar.c
+ 
+Building target: Modified_Kaprekar
+Invoking: GCC C Linker
+gcc  -o "Modified_Kaprekar"  ./src/Modified_Kaprekar.o   
+Finished building target: Modified_Kaprekar
+ 
+
+18:42:40 Build Finished. 0 errors, 0 warnings. (took 1s.131ms)
+

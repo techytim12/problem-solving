@@ -1,0 +1,15 @@
+17:39:03 **** Incremental Build of configuration Debug for project apple_orange ****
+make all 
+Building file: ../src/apple_orange.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/apple_orange.d" -MT"src/apple_orange.o" -o "src/apple_orange.o" "../src/apple_orange.c"
+Finished building: ../src/apple_orange.c
+ 
+Building target: apple_orange
+Invoking: GCC C Linker
+gcc  -o "apple_orange"  ./src/apple_orange.o   
+Finished building target: apple_orange
+ 
+
+17:39:05 Build Finished. 0 errors, 0 warnings. (took 1s.245ms)
+

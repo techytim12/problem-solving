@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;Alternating_charachters/src/Alternating_charachters.c&apos; to &apos;Alternating_characters.c&apos;" description="Rename resource &apos;Alternating_charachters.c&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="src/Alternating_charachters.c" name="Alternating_characters.c" stamp="1618892713838" updateReferences="true"/>
+</session>

@@ -1,0 +1,14 @@
+22:56:08 **** Build of configuration Debug for project Cats&Mouse ****
+make all 
+Building target: Cats&Mouse
+Invoking: GCC C Linker
+gcc  -o "Cats&Mouse"  ./src/Cats&Mouse.o   
+/bin/sh: 1: Mouse.o: not found
+make: *** [makefile:43: Cats&Mouse] Error 127
+gcc: error: ./src/Cats: No such file or directory
+gcc: fatal error: no input files
+compilation terminated.
+"make all" terminated with exit code 2. Build might be incomplete.
+
+22:56:09 Build Failed. 1 errors, 0 warnings. (took 929ms)
+

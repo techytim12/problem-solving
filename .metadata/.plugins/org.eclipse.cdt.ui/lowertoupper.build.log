@@ -1,0 +1,22 @@
+18:00:55 **** Incremental Build of configuration Debug for project lowertoupper ****
+make all 
+Building file: ../src/lowertoupper.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/lowertoupper.d" -MT"src/lowertoupper.o" -o "src/lowertoupper.o" "../src/lowertoupper.c"
+../src/lowertoupper.c: In function ‘main’:
+../src/lowertoupper.c:7:2: warning: implicit declaration of function ‘gets’; did you mean ‘fgets’? [-Wimplicit-function-declaration]
+    7 |  gets(str);
+      |  ^~~~
+      |  fgets
+Finished building: ../src/lowertoupper.c
+ 
+Building target: lowertoupper
+Invoking: GCC C Linker
+gcc  -o "lowertoupper"  ./src/lowertoupper.o   
+/usr/bin/ld: ./src/lowertoupper.o: in function `main':
+/home/thomas/eclipse-workspace/lowertoupper/Debug/../src/lowertoupper.c:7: warning: the `gets' function is dangerous and should not be used.
+Finished building target: lowertoupper
+ 
+
+18:00:56 Build Failed. 1 errors, 2 warnings. (took 1s.127ms)
+

@@ -1,0 +1,6 @@
+16:37:44 **** Incremental Build of configuration Debug for project armstrongrange ****
+make all 
+make: Nothing to be done for 'all'.
+
+16:37:45 Build Finished. 0 errors, 0 warnings. (took 1s.84ms)
+

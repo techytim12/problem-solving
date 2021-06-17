@@ -1,0 +1,15 @@
+10:47:34 **** Incremental Build of configuration Debug for project array_add_element ****
+make all 
+Building file: ../src/array_add_element.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/array_add_element.d" -MT"src/array_add_element.o" -o "src/array_add_element.o" "../src/array_add_element.c"
+Finished building: ../src/array_add_element.c
+ 
+Building target: array_add_element
+Invoking: GCC C Linker
+gcc  -o "array_add_element"  ./src/array_add_element.o   
+Finished building target: array_add_element
+ 
+
+10:47:35 Build Finished. 0 errors, 0 warnings. (took 1s.131ms)
+

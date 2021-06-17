@@ -1,0 +1,71 @@
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+
+int main(void) {
+
+	int i,j,k=0,n,c;
+
+	scanf("%d%d",&n,&c);
+	int arr[n][n];
+	char ch[100][100];
+
+	for (i=0; i<n; i++)
+	{
+		for (j=0; j<n; j++)
+		{
+			arr[i][j] = k;
+			k++;
+		}
+	}
+
+	for (i=0; i<n; i++)
+	{
+		for (j=0; j<n; j++)
+		{
+			printf("%d ",arr[i][j]);
+		}
+		printf("\n");
+	}
+
+	for (i=0; i<c; i++)
+	{
+		scanf("%s",ch[i]);
+	}
+
+	for (i=0; i<c; i++)
+	{
+		printf("%s",ch[i]);
+	}
+
+	int x=0,y=0;
+
+	/*00 01 02
+	10 11 12
+	20 21 22*/
+
+	for (i=0; i<c; i++)
+	{
+		if (ch[i] == "RIGHT" && y!= c-1)
+		{
+			y++;
+		}
+		else if (ch[i] == "LEFT" && y!=0)
+		{
+			y--;
+		}
+		else if (ch[i] == "UP" && (x!=0))
+		{
+			x--;
+		}
+		else if (ch[i] == "DOWN" && (x!=c-1))
+		{
+			x++;
+		}
+	}
+
+	printf("%s",ch[x][y]);
+
+
+	return EXIT_SUCCESS;
+}

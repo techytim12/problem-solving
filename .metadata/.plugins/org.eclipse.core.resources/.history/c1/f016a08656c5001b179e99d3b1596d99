@@ -1,0 +1,25 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+int main(void) {
+
+	int i,j,k=0,n;
+
+	scanf("%d",&n);
+	int arr[n][n];
+
+	for (i=0; i<n; i++)
+	{
+		for (j=0; j<n; j++)
+		{
+			arr[i][j] = k;
+			k++;
+		}
+	}
+
+	char ch[100];
+	printf("Enter nameL ");
+	gets(ch);
+	printf("%s",ch);
+	return EXIT_SUCCESS;
+}

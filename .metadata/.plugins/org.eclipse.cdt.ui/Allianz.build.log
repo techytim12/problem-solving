@@ -1,0 +1,15 @@
+09:35:13 **** Incremental Build of configuration Debug for project Allianz ****
+make all 
+Building file: ../src/Allianz.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Allianz.d" -MT"src/Allianz.o" -o "src/Allianz.o" "../src/Allianz.c"
+Finished building: ../src/Allianz.c
+ 
+Building target: Allianz
+Invoking: GCC C Linker
+gcc  -o "Allianz"  ./src/Allianz.o   
+Finished building target: Allianz
+ 
+
+09:35:14 Build Finished. 0 errors, 0 warnings. (took 1s.104ms)
+

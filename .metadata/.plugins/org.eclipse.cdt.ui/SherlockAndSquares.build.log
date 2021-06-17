@@ -1,0 +1,23 @@
+07:20:09 **** Incremental Build of configuration Debug for project SherlockAndSquares ****
+make all 
+Building file: ../src/SherlockAndSquares.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/SherlockAndSquares.d" -MT"src/SherlockAndSquares.o" -o "src/SherlockAndSquares.o" "../src/SherlockAndSquares.c"
+../src/SherlockAndSquares.c: In function ‘squares’:
+../src/SherlockAndSquares.c:51:1: warning: control reaches end of non-void function [-Wreturn-type]
+   51 | }
+      | ^
+Finished building: ../src/SherlockAndSquares.c
+ 
+Building target: SherlockAndSquares
+Invoking: GCC C Linker
+gcc  -o "SherlockAndSquares"  ./src/SherlockAndSquares.o   
+/usr/bin/ld: ./src/SherlockAndSquares.o: in function `squares':
+/home/thomas/eclipse-workspace/SherlockAndSquares/Debug/../src/SherlockAndSquares.c:38: undefined reference to `sqrt'
+/usr/bin/ld: /home/thomas/eclipse-workspace/SherlockAndSquares/Debug/../src/SherlockAndSquares.c:40: undefined reference to `sqrt'
+collect2: error: ld returned 1 exit status
+make: *** [makefile:43: SherlockAndSquares] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+
+07:20:10 Build Failed. 4 errors, 1 warnings. (took 1s.760ms)
+

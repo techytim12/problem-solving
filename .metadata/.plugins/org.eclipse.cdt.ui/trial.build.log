@@ -1,0 +1,7 @@
+21:16:39 **** Clean-only build of configuration Debug for project trial ****
+make clean 
+rm -rf  ./src/trial.o  ./src/trial.d  trial
+ 
+
+21:16:40 Build Finished. 0 errors, 0 warnings. (took 981ms)
+

@@ -1,0 +1,19 @@
+22:46:03 **** Build of configuration Debug for project CAt&Mouse ****
+make all 
+Building file: ../src/CAt&Mouse.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/CAt&Mouse.d" -MT"src/CAt&Mouse.o" -o "src/CAt&Mouse.o" "../src/CAt&Mouse.c"
+Finished building: ../src/CAt&Mouse.c
+ 
+Building target: CAt&Mouse
+Invoking: GCC C Linker
+gcc  -o "CAt&Mouse"  ./src/CAt&Mouse.o   
+/bin/sh: 1: Mouse.o: not found
+make: *** [makefile:43: CAt&Mouse] Error 127
+gcc: error: ./src/CAt: No such file or directory
+gcc: fatal error: no input files
+compilation terminated.
+"make all" terminated with exit code 2. Build might be incomplete.
+
+22:46:04 Build Failed. 1 errors, 0 warnings. (took 1s.138ms)
+

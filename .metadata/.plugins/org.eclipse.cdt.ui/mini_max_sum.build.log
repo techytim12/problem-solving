@@ -1,0 +1,15 @@
+10:31:40 **** Incremental Build of configuration Debug for project mini_max_sum ****
+make all 
+Building file: ../src/mini_max_sum.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/mini_max_sum.d" -MT"src/mini_max_sum.o" -o "src/mini_max_sum.o" "../src/mini_max_sum.c"
+Finished building: ../src/mini_max_sum.c
+ 
+Building target: mini_max_sum
+Invoking: GCC C Linker
+gcc  -o "mini_max_sum"  ./src/mini_max_sum.o   
+Finished building target: mini_max_sum
+ 
+
+10:31:41 Build Finished. 0 errors, 0 warnings. (took 1s.24ms)
+

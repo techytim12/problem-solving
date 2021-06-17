@@ -1,0 +1,22 @@
+22:30:17 **** Incremental Build of configuration Debug for project rover ****
+make all 
+Building file: ../src/rover.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/rover.d" -MT"src/rover.o" -o "src/rover.o" "../src/rover.c"
+../src/rover.c: In function ‘main’:
+../src/rover.c:32:2: warning: implicit declaration of function ‘gets’; did you mean ‘fgets’? [-Wimplicit-function-declaration]
+   32 |  gets(cmds);
+      |  ^~~~
+      |  fgets
+Finished building: ../src/rover.c
+ 
+Building target: rover
+Invoking: GCC C Linker
+gcc  -o "rover"  ./src/rover.o   
+/usr/bin/ld: ./src/rover.o: in function `main':
+Finished building target: rover
+/home/thomas/eclipse-workspace/rover/Debug/../src/rover.c:32: warning: the `gets' function is dangerous and should not be used.
+ 
+
+22:30:18 Build Failed. 1 errors, 2 warnings. (took 1s.95ms)
+

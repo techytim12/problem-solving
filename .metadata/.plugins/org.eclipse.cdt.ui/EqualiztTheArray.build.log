@@ -1,0 +1,15 @@
+14:31:11 **** Incremental Build of configuration Debug for project EqualiztTheArray ****
+make all 
+Building file: ../src/EqualiztTheArray.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/EqualiztTheArray.d" -MT"src/EqualiztTheArray.o" -o "src/EqualiztTheArray.o" "../src/EqualiztTheArray.c"
+Finished building: ../src/EqualiztTheArray.c
+ 
+Building target: EqualiztTheArray
+Invoking: GCC C Linker
+gcc  -o "EqualiztTheArray"  ./src/EqualiztTheArray.o   
+Finished building target: EqualiztTheArray
+ 
+
+14:31:12 Build Finished. 0 errors, 0 warnings. (took 1s.131ms)
+

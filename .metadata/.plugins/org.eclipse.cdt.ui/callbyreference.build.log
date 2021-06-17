@@ -1,0 +1,26 @@
+14:30:45 **** Incremental Build of configuration Debug for project callbyreference ****
+make all 
+Building file: ../src/callbyreference.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/callbyreference.d" -MT"src/callbyreference.o" -o "src/callbyreference.o" "../src/callbyreference.c"
+../src/callbyreference.c: In function ‘main’:
+../src/callbyreference.c:10:2: warning: implicit declaration of function ‘Operations’ [-Wimplicit-function-declaration]
+   10 |  Operations(&a,&b,&c,&d);
+      |  ^~~~~~~~~~
+../src/callbyreference.c: At top level:
+../src/callbyreference.c:17:6: warning: conflicting types for ‘Operations’
+   17 | void Operations(int *a, int *b, float *c, float *d)
+      |      ^~~~~~~~~~
+../src/callbyreference.c:10:2: note: previous implicit declaration of ‘Operations’ was here
+   10 |  Operations(&a,&b,&c,&d);
+      |  ^~~~~~~~~~
+Finished building: ../src/callbyreference.c
+ 
+Building target: callbyreference
+Invoking: GCC C Linker
+gcc  -o "callbyreference"  ./src/callbyreference.o   
+Finished building target: callbyreference
+ 
+
+14:30:46 Build Finished. 0 errors, 2 warnings. (took 1s.26ms)
+

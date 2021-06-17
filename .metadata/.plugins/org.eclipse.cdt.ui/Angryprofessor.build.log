@@ -1,0 +1,15 @@
+13:14:18 **** Incremental Build of configuration Debug for project Angryprofessor ****
+make all 
+Building file: ../src/Angryprofessor.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Angryprofessor.d" -MT"src/Angryprofessor.o" -o "src/Angryprofessor.o" "../src/Angryprofessor.c"
+Finished building: ../src/Angryprofessor.c
+ 
+Building target: Angryprofessor
+Invoking: GCC C Linker
+gcc  -o "Angryprofessor"  ./src/Angryprofessor.o   
+Finished building target: Angryprofessor
+ 
+
+13:14:19 Build Finished. 0 errors, 0 warnings. (took 1s.130ms)
+

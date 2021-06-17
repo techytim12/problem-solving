@@ -1,0 +1,51 @@
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+
+int main(void) {
+
+	int i,j,k=0,n;
+
+	scanf("%d",&n);
+	int arr[n][n];
+
+	for (i=0; i<n; i++)
+	{
+		for (j=0; j<n; j++)
+		{
+			arr[i][j] = k;
+			k++;
+		}
+	}
+
+	for (i=0; i<n; i++)
+	{
+		for (j=0; j<n; j++)
+		{
+			printf("%d ",arr[i][j]);
+		}
+		printf("\n");
+	}
+
+	char ch[][20] = {"THOMAS", "PHILIP", "SHON", "YEDU"};
+	/*for (i=0; i<2; i++)
+	{
+		for (j=0; j<2; j++)
+		{
+			scanf('%s',ch[i][j]);
+		}
+	}*/
+
+
+	for (i=0; i<2; i++)
+	{
+		for (j=0; j<2; j++)
+		{
+			printf('%s ',ch[i][j]);
+		}
+		printf("\n");
+	}
+
+
+	return EXIT_SUCCESS;
+}

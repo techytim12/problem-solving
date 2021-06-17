@@ -1,0 +1,15 @@
+23:50:26 **** Incremental Build of configuration Debug for project typedef_sample ****
+make all 
+Building file: ../src/typedef_sample.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/typedef_sample.d" -MT"src/typedef_sample.o" -o "src/typedef_sample.o" "../src/typedef_sample.c"
+Finished building: ../src/typedef_sample.c
+ 
+Building target: typedef_sample
+Invoking: GCC C Linker
+gcc  -o "typedef_sample"  ./src/typedef_sample.o   
+Finished building target: typedef_sample
+ 
+
+23:50:27 Build Finished. 0 errors, 0 warnings. (took 1s.80ms)
+

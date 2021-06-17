@@ -1,0 +1,6 @@
+09:37:25 **** Incremental Build of configuration Debug for project LibraryFine ****
+make all 
+make: Nothing to be done for 'all'.
+
+09:37:26 Build Finished. 0 errors, 0 warnings. (took 926ms)
+

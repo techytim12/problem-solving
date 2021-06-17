@@ -1,0 +1,6 @@
+19:04:22 **** Incremental Build of configuration Debug for project DrawingBook ****
+make all 
+make: Nothing to be done for 'all'.
+
+19:04:23 Build Finished. 0 errors, 0 warnings. (took 927ms)
+

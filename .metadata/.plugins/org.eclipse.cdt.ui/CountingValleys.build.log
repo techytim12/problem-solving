@@ -1,0 +1,6 @@
+23:44:29 **** Incremental Build of configuration Debug for project CountingValleys ****
+make all 
+make: Nothing to be done for 'all'.
+
+23:44:30 Build Finished. 0 errors, 0 warnings. (took 925ms)
+

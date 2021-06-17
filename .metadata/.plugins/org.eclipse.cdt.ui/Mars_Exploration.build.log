@@ -1,0 +1,6 @@
+21:38:13 **** Incremental Build of configuration Debug for project Mars_Exploration ****
+make all 
+make: Nothing to be done for 'all'.
+
+21:38:14 Build Finished. 0 errors, 0 warnings. (took 992ms)
+

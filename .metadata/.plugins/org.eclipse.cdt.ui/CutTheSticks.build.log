@@ -1,0 +1,6 @@
+13:02:25 **** Incremental Build of configuration Debug for project CutTheSticks ****
+make all 
+make: Nothing to be done for 'all'.
+
+13:02:26 Build Finished. 0 errors, 0 warnings. (took 979ms)
+

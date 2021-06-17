@@ -1,0 +1,15 @@
+10:07:06 **** Incremental Build of configuration Debug for project Duplicated_Products ****
+make all 
+Building file: ../src/Duplicated_Products.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Duplicated_Products.d" -MT"src/Duplicated_Products.o" -o "src/Duplicated_Products.o" "../src/Duplicated_Products.c"
+Finished building: ../src/Duplicated_Products.c
+ 
+Building target: Duplicated_Products
+Invoking: GCC C Linker
+gcc  -o "Duplicated_Products"  ./src/Duplicated_Products.o   
+Finished building target: Duplicated_Products
+ 
+
+10:07:07 Build Finished. 0 errors, 0 warnings. (took 1s.97ms)
+

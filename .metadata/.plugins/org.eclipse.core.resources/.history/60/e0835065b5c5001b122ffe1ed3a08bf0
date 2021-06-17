@@ -1,0 +1,40 @@
+#include <stdio.h>
+#include <string.h>
+
+int main(){
+
+	char ch[100];
+	scanf("%s",ch);
+	int i,j,n,count=0,s=1;
+
+	scanf("%d",&n);
+	int start[n];
+	int end[n];
+
+	for (i=0; i<n; i++){
+		scanf("%d",&start[i]);
+	}
+	for (i=0; i<n; i++){
+		scanf("%d",&end[i]);
+	}
+
+	for (i=0; i<n; i++)
+	{
+		for (j=start[i]; j<end[i]; j++ )
+		{
+			if (ch[j] == 124)
+			{
+				while (ch[j+s] != 124)
+				{
+					count++;
+					s++;
+				}
+			}
+		}
+	}
+	printf("%d",count);
+
+
+
+	return 0;
+}

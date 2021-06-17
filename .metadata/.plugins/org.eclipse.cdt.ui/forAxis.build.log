@@ -1,0 +1,6 @@
+20:40:45 **** Incremental Build of configuration Debug for project forAxis ****
+make all 
+make: Nothing to be done for 'all'.
+
+20:40:46 Build Finished. 0 errors, 0 warnings. (took 877ms)
+

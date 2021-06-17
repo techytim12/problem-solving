@@ -1,0 +1,15 @@
+13:10:34 **** Incremental Build of configuration Debug for project string_cut ****
+make all 
+Building file: ../src/string_cut.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/string_cut.d" -MT"src/string_cut.o" -o "src/string_cut.o" "../src/string_cut.c"
+Finished building: ../src/string_cut.c
+ 
+Building target: string_cut
+Invoking: GCC C Linker
+gcc  -o "string_cut"  ./src/string_cut.o   
+Finished building target: string_cut
+ 
+
+13:10:35 Build Finished. 0 errors, 0 warnings. (took 1s.23ms)
+

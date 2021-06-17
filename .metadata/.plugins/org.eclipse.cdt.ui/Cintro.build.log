@@ -1,0 +1,15 @@
+16:10:05 **** Incremental Build of configuration Debug for project Cintro ****
+make all 
+Building file: ../src/Cintro.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Cintro.d" -MT"src/Cintro.o" -o "src/Cintro.o" "../src/Cintro.c"
+Finished building: ../src/Cintro.c
+ 
+Building target: Cintro
+Invoking: GCC C Linker
+gcc  -o "Cintro"  ./src/Cintro.o   
+Finished building target: Cintro
+ 
+
+16:10:07 Build Finished. 0 errors, 0 warnings. (took 2s.236ms)
+

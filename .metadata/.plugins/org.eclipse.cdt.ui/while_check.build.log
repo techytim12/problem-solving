@@ -1,0 +1,15 @@
+22:44:21 **** Incremental Build of configuration Debug for project while_check ****
+make all 
+Building file: ../src/while_check.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/while_check.d" -MT"src/while_check.o" -o "src/while_check.o" "../src/while_check.c"
+Finished building: ../src/while_check.c
+ 
+Building target: while_check
+Invoking: GCC C Linker
+gcc  -o "while_check"  ./src/while_check.o   
+Finished building target: while_check
+ 
+
+22:44:22 Build Finished. 0 errors, 0 warnings. (took 1s.604ms)
+

@@ -1,0 +1,6 @@
+09:47:15 **** Incremental Build of configuration Debug for project ExtraLongFactorials ****
+make all 
+make: Nothing to be done for 'all'.
+
+09:47:16 Build Finished. 0 errors, 0 warnings. (took 872ms)
+

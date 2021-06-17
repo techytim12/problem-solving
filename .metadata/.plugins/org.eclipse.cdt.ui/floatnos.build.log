@@ -1,0 +1,15 @@
+23:45:01 **** Incremental Build of configuration Debug for project floatnos ****
+make all 
+Building file: ../src/floatnos.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/floatnos.d" -MT"src/floatnos.o" -o "src/floatnos.o" "../src/floatnos.c"
+Finished building: ../src/floatnos.c
+ 
+Building target: floatnos
+Invoking: GCC C Linker
+gcc  -o "floatnos"  ./src/floatnos.o   
+Finished building target: floatnos
+ 
+
+23:45:02 Build Finished. 0 errors, 0 warnings. (took 1s.383ms)
+

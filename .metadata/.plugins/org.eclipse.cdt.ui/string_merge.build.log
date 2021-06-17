@@ -1,0 +1,22 @@
+18:31:05 **** Incremental Build of configuration Debug for project string_merge ****
+make all 
+Building file: ../src/string_merge.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/string_merge.d" -MT"src/string_merge.o" -o "src/string_merge.o" "../src/string_merge.c"
+../src/string_merge.c: In function ‘main’:
+../src/string_merge.c:12:2: warning: implicit declaration of function ‘gets’; did you mean ‘fgets’? [-Wimplicit-function-declaration]
+   12 |  gets(a);
+      |  ^~~~
+      |  fgets
+Finished building: ../src/string_merge.c
+ 
+Building target: string_merge
+Invoking: GCC C Linker
+gcc  -o "string_merge"  ./src/string_merge.o   
+/usr/bin/ld: ./src/string_merge.o: in function `main':
+/home/thomas/eclipse-workspace/string_merge/Debug/../src/string_merge.c:12: warning: the `gets' function is dangerous and should not be used.
+Finished building target: string_merge
+ 
+
+18:31:06 Build Failed. 1 errors, 2 warnings. (took 1s.137ms)
+

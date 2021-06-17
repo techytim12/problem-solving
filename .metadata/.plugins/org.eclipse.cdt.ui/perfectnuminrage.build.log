@@ -1,0 +1,6 @@
+15:52:03 **** Incremental Build of configuration Debug for project perfectnuminrage ****
+make all 
+make: Nothing to be done for 'all'.
+
+15:52:05 Build Finished. 0 errors, 0 warnings. (took 1s.613ms)
+

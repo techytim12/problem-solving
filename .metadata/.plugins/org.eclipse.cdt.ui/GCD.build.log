@@ -1,0 +1,6 @@
+16:21:12 **** Incremental Build of configuration Debug for project GCD ****
+make all 
+make: Nothing to be done for 'all'.
+
+16:21:13 Build Finished. 0 errors, 0 warnings. (took 1s.51ms)
+

@@ -1,0 +1,29 @@
+13:26:34 **** Incremental Build of configuration Debug for project pointer_size ****
+make all 
+Building file: ../src/pointer_size.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/pointer_size.d" -MT"src/pointer_size.o" -o "src/pointer_size.o" "../src/pointer_size.c"
+../src/pointer_size.c: In function ‘main’:
+../src/pointer_size.c:8:32: warning: format ‘%d’ expects argument of type ‘int’, but argument 2 has type ‘long unsigned int’ [-Wformat=]
+    8 |  printf("Size of char pointer:%d\n",sizeof(cp));
+      |                               ~^    ~~~~~~~~~~
+      |                                |    |
+      |                                int  long unsigned int
+      |                               %ld
+../src/pointer_size.c:9:31: warning: format ‘%d’ expects argument of type ‘int’, but argument 2 has type ‘long unsigned int’ [-Wformat=]
+    9 |  printf("Size of int pointer:%d",sizeof(ip));
+      |                              ~^  ~~~~~~~~~~
+      |                               |  |
+      |                               |  long unsigned int
+      |                               int
+      |                              %ld
+Finished building: ../src/pointer_size.c
+ 
+Building target: pointer_size
+Invoking: GCC C Linker
+gcc  -o "pointer_size"  ./src/pointer_size.o   
+Finished building target: pointer_size
+ 
+
+13:26:35 Build Finished. 0 errors, 2 warnings. (took 1s.82ms)
+

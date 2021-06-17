@@ -1,0 +1,15 @@
+19:07:48 **** Incremental Build of configuration Debug for project SavePrisoner ****
+make all 
+Building file: ../src/SavePrisoner.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/SavePrisoner.d" -MT"src/SavePrisoner.o" -o "src/SavePrisoner.o" "../src/SavePrisoner.c"
+Finished building: ../src/SavePrisoner.c
+ 
+Building target: SavePrisoner
+Invoking: GCC C Linker
+gcc  -o "SavePrisoner"  ./src/SavePrisoner.o   
+Finished building target: SavePrisoner
+ 
+
+19:07:49 Build Finished. 0 errors, 0 warnings. (took 1s.85ms)
+

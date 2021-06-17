@@ -1,0 +1,6 @@
+11:57:37 **** Incremental Build of configuration Debug for project chocolate_count ****
+make all 
+make: Nothing to be done for 'all'.
+
+11:57:38 Build Finished. 0 errors, 0 warnings. (took 927ms)
+

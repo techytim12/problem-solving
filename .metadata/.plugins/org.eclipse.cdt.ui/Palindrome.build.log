@@ -1,0 +1,6 @@
+08:48:34 **** Build of configuration Debug for project Palindrome ****
+make all 
+make: Nothing to be done for 'all'.
+
+08:48:36 Build Finished. 0 errors, 0 warnings. (took 1s.622ms)
+

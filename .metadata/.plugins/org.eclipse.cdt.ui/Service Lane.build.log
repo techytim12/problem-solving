@@ -1,0 +1,15 @@
+18:05:13 **** Incremental Build of configuration Debug for project Service Lane ****
+make all 
+Building file: ../src/Service Lane.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Service Lane.d" -MT"src/Service Lane.o" -o "src/Service Lane.o" "../src/Service Lane.c"
+Finished building: ../src/Service Lane.c
+ 
+Building target: Service Lane
+Invoking: GCC C Linker
+gcc  -o "Service Lane"  ./src/Service\ Lane.o   
+Finished building target: Service Lane
+ 
+
+18:05:14 Build Finished. 0 errors, 0 warnings. (took 1s.63ms)
+

@@ -1,0 +1,38 @@
+
+#include <stdio.h>
+#include <stdlib.h>
+
+int main(void) {
+	int a,b,x,y,i,j,cu,sq,arsq[100]={0},arcu[100]={0},ss=0,cc=0;
+	scanf("%d%d%d%d",&a,&b,&x,&y);
+
+	for(i=a; i<=b; i++)
+	{
+		for (j=x; j<=y; j++)
+		{
+			cu = j*j*j;
+			sq = j*j;
+
+			if (cu == i){
+				arcu[cc] = i;
+				cc++;
+			}
+
+			if (sq == i){
+				arsq[ss] = i;
+				ss++;
+			}
+		}
+	}
+	printf("cubes:\n");
+	for (i=0; i<'\0'; i++){
+		printf("%d",arcu[i]);
+	}
+
+	printf("squares:\n");
+		for (i=0; i<'\0'; i++){
+			printf("%d",arsq[i]);
+		}
+
+	return EXIT_SUCCESS;
+}

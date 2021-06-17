@@ -1,0 +1,28 @@
+11:02:50 **** Build of configuration Debug for project armstrong ****
+make all 
+Building file: ../src/armstrong.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/armstrong.d" -MT"src/armstrong.o" -o "src/armstrong.o" "../src/armstrong.c"
+../src/armstrong.c:5:6: warning: return type of ‘main’ is not ‘int’ [-Wmain]
+    5 | void main() {
+      |      ^~~~
+../src/armstrong.c: In function ‘main’:
+../src/armstrong.c:25:9: warning: ‘return’ with a value, in function returning void [-Wreturn-type]
+   25 |  return EXIT_SUCCESS;
+      |         ^~~~~~~~~~~~
+../src/armstrong.c:5:6: note: declared here
+    5 | void main() {
+      |      ^~~~
+../src/armstrong.c:7:12: warning: unused variable ‘i’ [-Wunused-variable]
+    7 |  int r,n,c,i,sum=0;
+      |            ^
+Finished building: ../src/armstrong.c
+ 
+Building target: armstrong
+Invoking: GCC C Linker
+gcc  -o "armstrong"  ./src/armstrong.o   
+Finished building target: armstrong
+ 
+
+11:02:52 Build Finished. 0 errors, 3 warnings. (took 1s.131ms)
+

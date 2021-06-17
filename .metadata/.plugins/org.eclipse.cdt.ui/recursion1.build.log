@@ -1,0 +1,15 @@
+20:31:04 **** Build of configuration Debug for project recursion1 ****
+make all 
+Building file: ../src/recursion1.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/recursion1.d" -MT"src/recursion1.o" -o "src/recursion1.o" "../src/recursion1.c"
+Finished building: ../src/recursion1.c
+ 
+Building target: recursion1
+Invoking: GCC C Linker
+gcc  -o "recursion1"  ./src/recursion1.o   
+Finished building target: recursion1
+ 
+
+20:31:05 Build Finished. 0 errors, 0 warnings. (took 1s.191ms)
+

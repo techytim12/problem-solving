@@ -1,0 +1,8 @@
+13:06:00 **** Build of configuration Debug for project Taum_B'day1 ****
+make all 
+/bin/sh: 1: Syntax error: Unterminated quoted string
+make: *** [src/subdir.mk:18: src/Taum_B'day1.o] Error 2
+"make all" terminated with exit code 2. Build might be incomplete.
+
+13:06:01 Build Failed. 1 errors, 0 warnings. (took 1s.79ms)
+

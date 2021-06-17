@@ -1,0 +1,19 @@
+19:01:48 **** Incremental Build of configuration Debug for project string_split_strtok ****
+make all 
+Building file: ../src/string_split_strtok.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/string_split_strtok.d" -MT"src/string_split_strtok.o" -o "src/string_split_strtok.o" "../src/string_split_strtok.c"
+../src/string_split_strtok.c: In function ‘main’:
+../src/string_split_strtok.c:7:6: warning: unused variable ‘init_size’ [-Wunused-variable]
+    7 |  int init_size = strlen(str);
+      |      ^~~~~~~~~
+Finished building: ../src/string_split_strtok.c
+ 
+Building target: string_split_strtok
+Invoking: GCC C Linker
+gcc  -o "string_split_strtok"  ./src/string_split_strtok.o   
+Finished building target: string_split_strtok
+ 
+
+19:01:49 Build Finished. 0 errors, 1 warnings. (took 1s.129ms)
+

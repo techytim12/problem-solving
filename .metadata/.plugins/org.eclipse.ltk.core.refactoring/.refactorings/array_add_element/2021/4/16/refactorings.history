@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;array_add_element/src/arrayaddelement.c&apos; to &apos;array_add_element.c&apos;" description="Rename resource &apos;arrayaddelement.c&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="src/arrayaddelement.c" name="array_add_element.c" stamp="1618200676884" updateReferences="true"/>
+</session>

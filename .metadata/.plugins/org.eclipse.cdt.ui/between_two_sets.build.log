@@ -1,0 +1,15 @@
+22:46:51 **** Incremental Build of configuration Debug for project between_two_sets ****
+make all 
+Building file: ../src/between_two_sets.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/between_two_sets.d" -MT"src/between_two_sets.o" -o "src/between_two_sets.o" "../src/between_two_sets.c"
+Finished building: ../src/between_two_sets.c
+ 
+Building target: between_two_sets
+Invoking: GCC C Linker
+gcc  -o "between_two_sets"  ./src/between_two_sets.o   
+Finished building target: between_two_sets
+ 
+
+22:46:52 Build Finished. 0 errors, 0 warnings. (took 1s.73ms)
+

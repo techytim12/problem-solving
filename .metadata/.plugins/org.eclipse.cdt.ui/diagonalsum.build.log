@@ -1,0 +1,22 @@
+22:48:01 **** Incremental Build of configuration Debug for project diagonalsum ****
+make all 
+Building file: ../src/diagonalsum.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/diagonalsum.d" -MT"src/diagonalsum.o" -o "src/diagonalsum.o" "../src/diagonalsum.c"
+../src/diagonalsum.c: In function ‘main’:
+../src/diagonalsum.c:6:34: warning: unused variable ‘q’ [-Wunused-variable]
+    6 |  int i,j,n,a[10][10],lr=0,rl=0,p,q;
+      |                                  ^
+../src/diagonalsum.c:6:32: warning: unused variable ‘p’ [-Wunused-variable]
+    6 |  int i,j,n,a[10][10],lr=0,rl=0,p,q;
+      |                                ^
+Finished building: ../src/diagonalsum.c
+ 
+Building target: diagonalsum
+Invoking: GCC C Linker
+gcc  -o "diagonalsum"  ./src/diagonalsum.o   
+Finished building target: diagonalsum
+ 
+
+22:48:02 Build Finished. 0 errors, 2 warnings. (took 1s.365ms)
+

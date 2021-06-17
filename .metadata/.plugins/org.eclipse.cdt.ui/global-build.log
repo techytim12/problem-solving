@@ -1,0 +1,292 @@
+14:39:50 **** Build of configuration Debug for project string2 ****
+make all 
+Building file: ../src/string2.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/string2.d" -MT"src/string2.o" -o "src/string2.o" "../src/string2.c"
+Finished building: ../src/string2.c
+ 
+Building target: string2
+Invoking: GCC C Linker
+gcc  -o "string2"  ./src/string2.o   
+Finished building target: string2
+ 
+14:40:07 **** Incremental Build of configuration Debug for project string2 ****
+make all 
+Building file: ../src/string2.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/string2.d" -MT"src/string2.o" -o "src/string2.o" "../src/string2.c"
+../src/string2.c: In function ‘main’:
+../src/string2.c:12:8: warning: array subscript has type ‘char’ [-Wchar-subscripts]
+   12 |   a[str[i]]++;
+      |     ~~~^~~
+Finished building: ../src/string2.c
+ 
+Building target: string2
+Invoking: GCC C Linker
+gcc  -o "string2"  ./src/string2.o   
+Finished building target: string2
+ 
+14:40:28 **** Incremental Build of configuration Debug for project string2 ****
+make all 
+Building file: ../src/string2.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/string2.d" -MT"src/string2.o" -o "src/string2.o" "../src/string2.c"
+../src/string2.c: In function ‘main’:
+../src/string2.c:12:8: warning: array subscript has type ‘char’ [-Wchar-subscripts]
+   12 |   a[str[i]]++;
+      |     ~~~^~~
+Finished building: ../src/string2.c
+ 
+Building target: string2
+Invoking: GCC C Linker
+gcc  -o "string2"  ./src/string2.o   
+Finished building target: string2
+ 
+14:41:16 **** Incremental Build of configuration Debug for project string2 ****
+make all 
+Building file: ../src/string2.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/string2.d" -MT"src/string2.o" -o "src/string2.o" "../src/string2.c"
+../src/string2.c: In function ‘main’:
+../src/string2.c:13:8: warning: array subscript has type ‘char’ [-Wchar-subscripts]
+   13 |   a[str[i]]++;
+      |     ~~~^~~
+Finished building: ../src/string2.c
+ 
+Building target: string2
+Invoking: GCC C Linker
+gcc  -o "string2"  ./src/string2.o   
+Finished building target: string2
+ 
+14:42:05 **** Incremental Build of configuration Debug for project string2 ****
+make all 
+Building file: ../src/string2.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/string2.d" -MT"src/string2.o" -o "src/string2.o" "../src/string2.c"
+Finished building: ../src/string2.c
+ 
+Building target: string2
+Invoking: GCC C Linker
+gcc  -o "string2"  ./src/string2.o   
+Finished building target: string2
+ 
+14:43:17 **** Incremental Build of configuration Debug for project string2 ****
+make all 
+Building file: ../src/string2.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/string2.d" -MT"src/string2.o" -o "src/string2.o" "../src/string2.c"
+../src/string2.c: In function ‘main’:
+../src/string2.c:17:12: warning: array subscript has type ‘char’ [-Wchar-subscripts]
+   17 |   if (a[str[i]] == 1)
+      |         ~~~^~~
+Finished building: ../src/string2.c
+ 
+Building target: string2
+Invoking: GCC C Linker
+gcc  -o "string2"  ./src/string2.o   
+Finished building target: string2
+ 
+14:43:42 **** Incremental Build of configuration Debug for project string2 ****
+make all 
+Building file: ../src/string2.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/string2.d" -MT"src/string2.o" -o "src/string2.o" "../src/string2.c"
+Finished building: ../src/string2.c
+ 
+Building target: string2
+Invoking: GCC C Linker
+gcc  -o "string2"  ./src/string2.o   
+Finished building target: string2
+ 
+14:44:09 **** Incremental Build of configuration Debug for project string2 ****
+make all 
+Building file: ../src/string2.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/string2.d" -MT"src/string2.o" -o "src/string2.o" "../src/string2.c"
+Finished building: ../src/string2.c
+ 
+Building target: string2
+Invoking: GCC C Linker
+gcc  -o "string2"  ./src/string2.o   
+Finished building target: string2
+ 
+14:45:47 **** Incremental Build of configuration Debug for project string2 ****
+make all 
+Building file: ../src/string2.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/string2.d" -MT"src/string2.o" -o "src/string2.o" "../src/string2.c"
+Finished building: ../src/string2.c
+ 
+Building target: string2
+Invoking: GCC C Linker
+gcc  -o "string2"  ./src/string2.o   
+Finished building target: string2
+ 
+14:46:58 **** Incremental Build of configuration Debug for project string2 ****
+make all 
+Building file: ../src/string2.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/string2.d" -MT"src/string2.o" -o "src/string2.o" "../src/string2.c"
+Finished building: ../src/string2.c
+ 
+Building target: string2
+Invoking: GCC C Linker
+gcc  -o "string2"  ./src/string2.o   
+Finished building target: string2
+ 
+14:49:14 **** Incremental Build of configuration Debug for project string2 ****
+make all 
+Building file: ../src/string2.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/string2.d" -MT"src/string2.o" -o "src/string2.o" "../src/string2.c"
+Finished building: ../src/string2.c
+ 
+Building target: string2
+Invoking: GCC C Linker
+gcc  -o "string2"  ./src/string2.o   
+Finished building target: string2
+ 
+14:49:43 **** Incremental Build of configuration Debug for project string2 ****
+make all 
+Building file: ../src/string2.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/string2.d" -MT"src/string2.o" -o "src/string2.o" "../src/string2.c"
+Finished building: ../src/string2.c
+ 
+Building target: string2
+Invoking: GCC C Linker
+gcc  -o "string2"  ./src/string2.o   
+Finished building target: string2
+ 
+14:50:09 **** Incremental Build of configuration Debug for project string2 ****
+make all 
+Building file: ../src/string2.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/string2.d" -MT"src/string2.o" -o "src/string2.o" "../src/string2.c"
+Finished building: ../src/string2.c
+ 
+Building target: string2
+Invoking: GCC C Linker
+gcc  -o "string2"  ./src/string2.o   
+Finished building target: string2
+ 
+15:10:01 **** Incremental Build of configuration Debug for project string2 ****
+make all 
+Building file: ../src/string2.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/string2.d" -MT"src/string2.o" -o "src/string2.o" "../src/string2.c"
+Finished building: ../src/string2.c
+ 
+Building target: string2
+Invoking: GCC C Linker
+gcc  -o "string2"  ./src/string2.o   
+Finished building target: string2
+ 
+15:10:12 **** Incremental Build of configuration Debug for project string2 ****
+make all 
+Building file: ../src/string2.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/string2.d" -MT"src/string2.o" -o "src/string2.o" "../src/string2.c"
+Finished building: ../src/string2.c
+ 
+Building target: string2
+Invoking: GCC C Linker
+gcc  -o "string2"  ./src/string2.o   
+Finished building target: string2
+ 
+15:11:46 **** Incremental Build of configuration Debug for project string2 ****
+make all 
+Building file: ../src/string2.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/string2.d" -MT"src/string2.o" -o "src/string2.o" "../src/string2.c"
+Finished building: ../src/string2.c
+ 
+Building target: string2
+Invoking: GCC C Linker
+gcc  -o "string2"  ./src/string2.o   
+Finished building target: string2
+ 
+15:12:34 **** Incremental Build of configuration Debug for project string2 ****
+make all 
+Building file: ../src/string2.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/string2.d" -MT"src/string2.o" -o "src/string2.o" "../src/string2.c"
+Finished building: ../src/string2.c
+ 
+Building target: string2
+Invoking: GCC C Linker
+gcc  -o "string2"  ./src/string2.o   
+Finished building target: string2
+ 
+15:12:47 **** Incremental Build of configuration Debug for project string2 ****
+make all 
+Building file: ../src/string2.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/string2.d" -MT"src/string2.o" -o "src/string2.o" "../src/string2.c"
+Finished building: ../src/string2.c
+ 
+Building target: string2
+Invoking: GCC C Linker
+gcc  -o "string2"  ./src/string2.o   
+Finished building target: string2
+ 
+15:13:24 **** Incremental Build of configuration Debug for project string2 ****
+make all 
+Building file: ../src/string2.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/string2.d" -MT"src/string2.o" -o "src/string2.o" "../src/string2.c"
+Finished building: ../src/string2.c
+ 
+Building target: string2
+Invoking: GCC C Linker
+gcc  -o "string2"  ./src/string2.o   
+Finished building target: string2
+ 
+15:14:29 **** Incremental Build of configuration Debug for project string2 ****
+make all 
+Building file: ../src/string2.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/string2.d" -MT"src/string2.o" -o "src/string2.o" "../src/string2.c"
+Finished building: ../src/string2.c
+ 
+Building target: string2
+Invoking: GCC C Linker
+gcc  -o "string2"  ./src/string2.o   
+Finished building target: string2
+ 
+15:14:54 **** Incremental Build of configuration Debug for project string2 ****
+make all 
+Building file: ../src/string2.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/string2.d" -MT"src/string2.o" -o "src/string2.o" "../src/string2.c"
+Finished building: ../src/string2.c
+ 
+Building target: string2
+Invoking: GCC C Linker
+gcc  -o "string2"  ./src/string2.o   
+Finished building target: string2
+ 
+15:15:06 **** Incremental Build of configuration Debug for project string2 ****
+make all 
+Building file: ../src/string2.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/string2.d" -MT"src/string2.o" -o "src/string2.o" "../src/string2.c"
+Finished building: ../src/string2.c
+ 
+Building target: string2
+Invoking: GCC C Linker
+gcc  -o "string2"  ./src/string2.o   
+Finished building target: string2
+ 
+15:16:47 **** Incremental Build of configuration Debug for project string2 ****
+make all 
+Building file: ../src/string2.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/string2.d" -MT"src/string2.o" -o "src/string2.o" "../src/string2.c"
+Finished building: ../src/string2.c
+ 
+Building target: string2
+Invoking: GCC C Linker
+gcc  -o "string2"  ./src/string2.o   
+Finished building target: string2
+ 

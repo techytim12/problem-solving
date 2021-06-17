@@ -1,0 +1,15 @@
+20:05:10 **** Incremental Build of configuration Debug for project BigSorting ****
+make all 
+Building file: ../src/BigSorting.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/BigSorting.d" -MT"src/BigSorting.o" -o "src/BigSorting.o" "../src/BigSorting.c"
+Finished building: ../src/BigSorting.c
+ 
+Building target: BigSorting
+Invoking: GCC C Linker
+gcc  -o "BigSorting"  ./src/BigSorting.o   
+Finished building target: BigSorting
+ 
+
+20:05:11 Build Finished. 0 errors, 0 warnings. (took 1s.169ms)
+

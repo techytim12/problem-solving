@@ -1,0 +1,6 @@
+20:14:50 **** Incremental Build of configuration Debug for project recursion ****
+make all 
+make: Nothing to be done for 'all'.
+
+20:14:51 Build Finished. 0 errors, 0 warnings. (took 932ms)
+

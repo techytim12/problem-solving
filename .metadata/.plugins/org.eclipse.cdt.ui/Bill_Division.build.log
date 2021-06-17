@@ -1,0 +1,15 @@
+16:35:42 **** Incremental Build of configuration Debug for project Bill_Division ****
+make all 
+Building file: ../src/Bill_Division.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Bill_Division.d" -MT"src/Bill_Division.o" -o "src/Bill_Division.o" "../src/Bill_Division.c"
+Finished building: ../src/Bill_Division.c
+ 
+Building target: Bill_Division
+Invoking: GCC C Linker
+gcc  -o "Bill_Division"  ./src/Bill_Division.o   
+Finished building target: Bill_Division
+ 
+
+16:35:43 Build Finished. 0 errors, 0 warnings. (took 1s.27ms)
+

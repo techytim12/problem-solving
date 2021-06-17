@@ -1,0 +1,6 @@
+20:08:24 **** Incremental Build of configuration Debug for project BigSortingCopied ****
+make all 
+make: Nothing to be done for 'all'.
+
+20:08:25 Build Finished. 0 errors, 0 warnings. (took 993ms)
+

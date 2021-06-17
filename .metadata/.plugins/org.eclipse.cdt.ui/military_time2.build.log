@@ -1,0 +1,15 @@
+15:13:10 **** Incremental Build of configuration Debug for project military_time2 ****
+make all 
+Building file: ../src/military_time2.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/military_time2.d" -MT"src/military_time2.o" -o "src/military_time2.o" "../src/military_time2.c"
+Finished building: ../src/military_time2.c
+ 
+Building target: military_time2
+Invoking: GCC C Linker
+gcc  -o "military_time2"  ./src/military_time2.o   
+Finished building target: military_time2
+ 
+
+15:13:11 Build Finished. 0 errors, 0 warnings. (took 1s.26ms)
+

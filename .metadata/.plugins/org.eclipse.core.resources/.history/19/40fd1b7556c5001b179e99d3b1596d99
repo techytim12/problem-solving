@@ -1,0 +1,11 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+int main(void) {
+
+	char ch[100];
+	printf("Enter nameL ");
+	gets(ch);
+	printf("%s",ch);
+	return EXIT_SUCCESS;
+}

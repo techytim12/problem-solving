@@ -1,0 +1,8 @@
+22:33:27 **** Build of configuration Debug for project Lisa'sWorkbook ****
+make all 
+/bin/sh: 1: Syntax error: Unterminated quoted string
+make: *** [src/subdir.mk:18: src/Lisa'sWorkbook.o] Error 2
+"make all" terminated with exit code 2. Build might be incomplete.
+
+22:33:28 Build Failed. 1 errors, 0 warnings. (took 932ms)
+

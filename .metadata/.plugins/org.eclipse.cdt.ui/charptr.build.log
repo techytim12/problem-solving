@@ -1,0 +1,25 @@
+09:17:28 **** Incremental Build of configuration Debug for project charptr ****
+make all 
+Building file: ../src/charptr.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/charptr.d" -MT"src/charptr.o" -o "src/charptr.o" "../src/charptr.c"
+../src/charptr.c: In function ‘read’:
+../src/charptr.c:21:2: warning: implicit declaration of function ‘gets’; did you mean ‘fgets’? [-Wimplicit-function-declaration]
+   21 |  gets(ch);
+      |  ^~~~
+      |  fgets
+../src/charptr.c:22:7: warning: assignment to ‘string’ {aka ‘char *’} from incompatible pointer type ‘char (*)[10]’ [-Wincompatible-pointer-types]
+   22 |  name = &ch;
+      |       ^
+Finished building: ../src/charptr.c
+ 
+Building target: charptr
+Invoking: GCC C Linker
+gcc  -o "charptr"  ./src/charptr.o   
+/usr/bin/ld: ./src/charptr.o: in function `read':
+/home/thomas/eclipse-workspace/charptr/Debug/../src/charptr.c:21: warning: the `gets' function is dangerous and should not be used.
+Finished building target: charptr
+ 
+
+09:17:29 Build Failed. 1 errors, 3 warnings. (took 1s.141ms)
+

@@ -1,0 +1,19 @@
+13:55:12 **** Build of configuration Debug for project Append&Delete ****
+make all 
+Building file: ../src/Append&Delete.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Append&Delete.d" -MT"src/Append&Delete.o" -o "src/Append&Delete.o" "../src/Append&Delete.c"
+Finished building: ../src/Append&Delete.c
+ 
+Building target: Append&Delete
+Invoking: GCC C Linker
+gcc  -o "Append&Delete"  ./src/Append&Delete.o   
+/bin/sh: 1: Delete.o: not found
+make: *** [makefile:43: Append&Delete] Error 127
+gcc: error: ./src/Append: No such file or directory
+gcc: fatal error: no input files
+compilation terminated.
+"make all" terminated with exit code 2. Build might be incomplete.
+
+13:55:13 Build Failed. 1 errors, 0 warnings. (took 1s.30ms)
+

@@ -1,0 +1,15 @@
+09:25:07 **** Incremental Build of configuration Debug for project HurdleRace ****
+make all 
+Building file: ../src/HurdleRace.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/HurdleRace.d" -MT"src/HurdleRace.o" -o "src/HurdleRace.o" "../src/HurdleRace.c"
+Finished building: ../src/HurdleRace.c
+ 
+Building target: HurdleRace
+Invoking: GCC C Linker
+gcc  -o "HurdleRace"  ./src/HurdleRace.o   
+Finished building target: HurdleRace
+ 
+
+09:25:08 Build Finished. 0 errors, 0 warnings. (took 1s.324ms)
+

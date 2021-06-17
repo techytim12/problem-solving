@@ -1,0 +1,19 @@
+12:08:03 **** Incremental Build of configuration Debug for project add_another_array_to_array ****
+make all 
+Building file: ../src/add_another_array_to_array.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/add_another_array_to_array.d" -MT"src/add_another_array_to_array.o" -o "src/add_another_array_to_array.o" "../src/add_another_array_to_array.c"
+../src/add_another_array_to_array.c: In function ‘main’:
+../src/add_another_array_to_array.c:6:28: warning: unused variable ‘value’ [-Wunused-variable]
+    6 |  int a[50],b[50],i,m,n,pos,value;
+      |                            ^~~~~
+Finished building: ../src/add_another_array_to_array.c
+ 
+Building target: add_another_array_to_array
+Invoking: GCC C Linker
+gcc  -o "add_another_array_to_array"  ./src/add_another_array_to_array.o   
+Finished building target: add_another_array_to_array
+ 
+
+12:08:04 Build Finished. 0 errors, 1 warnings. (took 1s.25ms)
+

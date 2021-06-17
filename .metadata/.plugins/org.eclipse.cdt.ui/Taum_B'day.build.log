@@ -1,0 +1,9 @@
+18:26:13 **** Clean-only build of configuration Debug for project Taum_B'day ****
+make clean 
+rm -rf  ./src/Taum_B'day.o  ./src/Taum_B'day.d  Taum_B'day
+/bin/sh: 1: Syntax error: Unterminated quoted string
+make: [makefile:49: clean] Error 2 (ignored)
+ 
+
+18:26:14 Build Finished. 0 errors, 0 warnings. (took 928ms)
+

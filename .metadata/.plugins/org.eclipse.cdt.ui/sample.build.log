@@ -1,0 +1,64 @@
+07:49:03 **** Incremental Build of configuration Debug for project sample ****
+make all 
+Building file: ../src/forloop.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/forloop.d" -MT"src/forloop.o" -o "src/forloop.o" "../src/forloop.c"
+../src/forloop.c: In function ‘main’:
+../src/forloop.c:49:28: warning: passing argument 2 of ‘strcmp’ makes pointer from integer without a cast [-Wint-conversion]
+   49 |   if (strcmp(ch[i],"RIGHT" == 0) && y<c)
+      |                    ~~~~~~~~^~~~
+      |                            |
+      |                            int
+In file included from ../src/forloop.c:3:
+/usr/include/string.h:137:50: note: expected ‘const char *’ but argument is of type ‘int’
+  137 | extern int strcmp (const char *__s1, const char *__s2)
+      |                                      ~~~~~~~~~~~~^~~~
+../src/forloop.c:49:7: warning: null argument where non-null required (argument 2) [-Wnonnull]
+   49 |   if (strcmp(ch[i],"RIGHT" == 0) && y<c)
+      |       ^~~~~~
+../src/forloop.c:54:32: warning: passing argument 2 of ‘strcmp’ makes pointer from integer without a cast [-Wint-conversion]
+   54 |   else if (strcmp(ch[i],"LEFT" == 0) && y>0)
+      |                         ~~~~~~~^~~~
+      |                                |
+      |                                int
+In file included from ../src/forloop.c:3:
+/usr/include/string.h:137:50: note: expected ‘const char *’ but argument is of type ‘int’
+  137 | extern int strcmp (const char *__s1, const char *__s2)
+      |                                      ~~~~~~~~~~~~^~~~
+../src/forloop.c:54:12: warning: null argument where non-null required (argument 2) [-Wnonnull]
+   54 |   else if (strcmp(ch[i],"LEFT" == 0) && y>0)
+      |            ^~~~~~
+../src/forloop.c:59:30: warning: passing argument 2 of ‘strcmp’ makes pointer from integer without a cast [-Wint-conversion]
+   59 |   else if (strcmp(ch[i],"UP" == 0) && (x>0))
+      |                         ~~~~~^~~~
+      |                              |
+      |                              int
+In file included from ../src/forloop.c:3:
+/usr/include/string.h:137:50: note: expected ‘const char *’ but argument is of type ‘int’
+  137 | extern int strcmp (const char *__s1, const char *__s2)
+      |                                      ~~~~~~~~~~~~^~~~
+../src/forloop.c:59:12: warning: null argument where non-null required (argument 2) [-Wnonnull]
+   59 |   else if (strcmp(ch[i],"UP" == 0) && (x>0))
+      |            ^~~~~~
+../src/forloop.c:64:32: warning: passing argument 2 of ‘strcmp’ makes pointer from integer without a cast [-Wint-conversion]
+   64 |   else if (strcmp(ch[i],"DOWN" == 0) && (x<c))
+      |                         ~~~~~~~^~~~
+      |                                |
+      |                                int
+In file included from ../src/forloop.c:3:
+/usr/include/string.h:137:50: note: expected ‘const char *’ but argument is of type ‘int’
+  137 | extern int strcmp (const char *__s1, const char *__s2)
+      |                                      ~~~~~~~~~~~~^~~~
+../src/forloop.c:64:12: warning: null argument where non-null required (argument 2) [-Wnonnull]
+   64 |   else if (strcmp(ch[i],"DOWN" == 0) && (x<c))
+      |            ^~~~~~
+Finished building: ../src/forloop.c
+ 
+Building target: sample
+Invoking: GCC C Linker
+gcc  -o "sample"  ./src/forloop.o   
+Finished building target: sample
+ 
+
+07:49:04 Build Finished. 0 errors, 8 warnings. (took 1s.87ms)
+

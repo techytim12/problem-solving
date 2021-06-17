@@ -1,0 +1,15 @@
+09:38:48 **** Incremental Build of configuration Debug for project Super_Reduced_String ****
+make all 
+Building file: ../src/Super_Reduced_String.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Super_Reduced_String.d" -MT"src/Super_Reduced_String.o" -o "src/Super_Reduced_String.o" "../src/Super_Reduced_String.c"
+Finished building: ../src/Super_Reduced_String.c
+ 
+Building target: Super_Reduced_String
+Invoking: GCC C Linker
+gcc  -o "Super_Reduced_String"  ./src/Super_Reduced_String.o   
+Finished building target: Super_Reduced_String
+ 
+
+09:38:49 Build Finished. 0 errors, 0 warnings. (took 1s.98ms)
+

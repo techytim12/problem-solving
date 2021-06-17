@@ -1,0 +1,15 @@
+15:38:54 **** Incremental Build of configuration Debug for project Beautifildays ****
+make all 
+Building file: ../src/Beautifildays.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Beautifildays.d" -MT"src/Beautifildays.o" -o "src/Beautifildays.o" "../src/Beautifildays.c"
+Finished building: ../src/Beautifildays.c
+ 
+Building target: Beautifildays
+Invoking: GCC C Linker
+gcc  -o "Beautifildays"  ./src/Beautifildays.o   
+Finished building target: Beautifildays
+ 
+
+15:38:55 Build Finished. 0 errors, 0 warnings. (took 1s.863ms)
+

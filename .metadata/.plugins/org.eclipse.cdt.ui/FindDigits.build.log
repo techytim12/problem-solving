@@ -1,0 +1,6 @@
+09:22:45 **** Incremental Build of configuration Debug for project FindDigits ****
+make all 
+make: Nothing to be done for 'all'.
+
+09:22:46 Build Finished. 0 errors, 0 warnings. (took 976ms)
+

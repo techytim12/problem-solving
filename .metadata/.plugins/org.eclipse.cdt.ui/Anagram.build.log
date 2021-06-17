@@ -1,0 +1,6 @@
+13:24:01 **** Incremental Build of configuration Debug for project Anagram ****
+make all 
+make: Nothing to be done for 'all'.
+
+13:24:02 Build Finished. 0 errors, 0 warnings. (took 1s.25ms)
+

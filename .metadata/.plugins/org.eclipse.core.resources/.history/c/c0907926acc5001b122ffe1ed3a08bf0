@@ -1,0 +1,41 @@
+#include <stdio.h>
+#include <string.h>
+
+int main(){
+
+	char ch[100];
+	scanf("%s",ch);
+	int i,j,k,f,n,l,count=0,s=1;
+	l = strlen(ch);
+
+	scanf("%d",&n);
+	int start[n];
+	int end[n];
+
+	for (i=0; i<n; i++){
+		scanf("%d",&start[i]);
+	}
+	for (i=0; i<n; i++){
+		scanf("%d",&end[i]);
+	}
+
+	for (i=0; i<n; i++)
+	{
+		for (j=start[i]; j<end[i]; j++ )
+		{
+			if (ch[j] == "|")
+			{
+				while (ch[j+s] != "|")
+				{
+					count++;
+					s++;
+				}
+			}
+		}
+	}
+	printf("%d",count);
+
+
+
+	return 0;
+}

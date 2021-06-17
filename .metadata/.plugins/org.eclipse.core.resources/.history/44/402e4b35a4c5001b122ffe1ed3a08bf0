@@ -1,0 +1,22 @@
+
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+
+int main(void) {
+
+	int i,c;
+	char ch[100][100];
+	scanf("%d",&c);
+
+	for (i=0; i<c; i++){
+		scanf("%s",ch[i]);
+	}
+
+	for (i=0; i<c; i++){
+		printf("%s ",ch[i]);
+	}
+
+
+	return EXIT_SUCCESS;
+}

@@ -1,0 +1,15 @@
+15:03:17 **** Incremental Build of configuration Debug for project Beautiful_Triplets ****
+make all 
+Building file: ../src/Beautiful_Triplets.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Beautiful_Triplets.d" -MT"src/Beautiful_Triplets.o" -o "src/Beautiful_Triplets.o" "../src/Beautiful_Triplets.c"
+Finished building: ../src/Beautiful_Triplets.c
+ 
+Building target: Beautiful_Triplets
+Invoking: GCC C Linker
+gcc  -o "Beautiful_Triplets"  ./src/Beautiful_Triplets.o   
+Finished building target: Beautiful_Triplets
+ 
+
+15:03:18 Build Finished. 0 errors, 0 warnings. (took 1s.148ms)
+

@@ -1,0 +1,38 @@
+11:43:59 **** Incremental Build of configuration Debug for project structure ****
+make all 
+Building file: ../src/structure.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/structure.d" -MT"src/structure.o" -o "src/structure.o" "../src/structure.c"
+../src/structure.c: In function ‘main’:
+../src/structure.c:19:20: error: ‘(struct Emp *)&e’ is a pointer; did you mean to use ‘->’?
+   19 |   scanf("%d%s%f",&e.eno,e.ename,&e.esal);
+      |                    ^
+      |                    ->
+../src/structure.c:19:26: error: ‘(struct Emp *)&e’ is a pointer; did you mean to use ‘->’?
+   19 |   scanf("%d%s%f",&e.eno,e.ename,&e.esal);
+      |                          ^
+      |                          ->
+../src/structure.c:19:35: error: ‘(struct Emp *)&e’ is a pointer; did you mean to use ‘->’?
+   19 |   scanf("%d%s%f",&e.eno,e.ename,&e.esal);
+      |                                   ^
+      |                                   ->
+../src/structure.c:27:22: error: ‘(struct Emp *)&e’ is a pointer; did you mean to use ‘->’?
+   27 |   printf("\n%d%s%f",e.eno[i],e.ename[i],e.esal[i]);
+      |                      ^
+      |                      ->
+../src/structure.c:27:31: error: ‘(struct Emp *)&e’ is a pointer; did you mean to use ‘->’?
+   27 |   printf("\n%d%s%f",e.eno[i],e.ename[i],e.esal[i]);
+      |                               ^
+      |                               ->
+../src/structure.c:27:42: error: ‘(struct Emp *)&e’ is a pointer; did you mean to use ‘->’?
+   27 |   printf("\n%d%s%f",e.eno[i],e.ename[i],e.esal[i]);
+      |                                          ^
+      |                                          ->
+../src/structure.c:12:13: warning: variable ‘e’ set but not used [-Wunused-but-set-variable]
+   12 |  struct Emp e[3];
+      |             ^
+make: *** [src/subdir.mk:20: src/structure.o] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+
+11:44:00 Build Failed. 7 errors, 1 warnings. (took 1s.353ms)
+

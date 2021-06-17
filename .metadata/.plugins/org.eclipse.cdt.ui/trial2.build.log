@@ -1,0 +1,15 @@
+10:59:54 **** Incremental Build of configuration Debug for project trial2 ****
+make all 
+Building file: ../src/trial2.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/trial2.d" -MT"src/trial2.o" -o "src/trial2.o" "../src/trial2.c"
+Finished building: ../src/trial2.c
+ 
+Building target: trial2
+Invoking: GCC C Linker
+gcc  -o "trial2"  ./src/trial2.o   
+Finished building target: trial2
+ 
+
+10:59:56 Build Finished. 0 errors, 0 warnings. (took 1s.227ms)
+

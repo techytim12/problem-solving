@@ -1,0 +1,6 @@
+15:46:52 **** Incremental Build of configuration Debug for project Sales_By_Match1 ****
+make all 
+make: Nothing to be done for 'all'.
+
+15:46:54 Build Finished. 0 errors, 0 warnings. (took 1s.559ms)
+

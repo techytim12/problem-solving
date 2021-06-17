@@ -1,0 +1,15 @@
+09:02:26 **** Incremental Build of configuration Debug for project recursion2 ****
+make all 
+Building file: ../src/recursion2.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/recursion2.d" -MT"src/recursion2.o" -o "src/recursion2.o" "../src/recursion2.c"
+Finished building: ../src/recursion2.c
+ 
+Building target: recursion2
+Invoking: GCC C Linker
+gcc  -o "recursion2"  ./src/recursion2.o   
+Finished building target: recursion2
+ 
+
+09:02:28 Build Finished. 0 errors, 0 warnings. (took 1s.180ms)
+

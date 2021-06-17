@@ -1,0 +1,15 @@
+09:26:55 **** Incremental Build of configuration Debug for project Axis1 ****
+make all 
+Building file: ../src/Axis1.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Axis1.d" -MT"src/Axis1.o" -o "src/Axis1.o" "../src/Axis1.c"
+Finished building: ../src/Axis1.c
+ 
+Building target: Axis1
+Invoking: GCC C Linker
+gcc  -o "Axis1"  ./src/Axis1.o   
+Finished building target: Axis1
+ 
+
+09:26:56 Build Finished. 0 errors, 0 warnings. (took 1s.195ms)
+

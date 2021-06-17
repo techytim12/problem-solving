@@ -1,0 +1,32 @@
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+
+int main(){
+
+	char name[100][100];
+	int price[1000];
+	int weight[1000];
+
+	int n,i;
+	printf("Enter n: ");
+	scanf("%d",&n);
+	printf("ENter item names: ");
+	for (i=0; i<n; i++)
+		scanf("%s",name[i]);
+
+	printf("Enter price: ");
+	for (i=0; i<n; i++)
+		scanf("%d",&price[i]);
+
+	printf("enter weight: ");
+	for (i=0; i<n; i++)
+		scanf("%d",&weight[i]);
+
+	printf("\n");
+
+	for (i=0; i<n; i++)
+		printf("%s %d %d",name[i],price[i],weight[i]);
+
+	return 0;
+}

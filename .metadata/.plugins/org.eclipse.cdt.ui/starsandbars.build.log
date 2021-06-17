@@ -1,0 +1,15 @@
+14:16:11 **** Incremental Build of configuration Debug for project starsandbars ****
+make all 
+Building file: ../src/starsandbars.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/starsandbars.d" -MT"src/starsandbars.o" -o "src/starsandbars.o" "../src/starsandbars.c"
+Finished building: ../src/starsandbars.c
+ 
+Building target: starsandbars
+Invoking: GCC C Linker
+gcc  -o "starsandbars"  ./src/starsandbars.o   
+Finished building target: starsandbars
+ 
+
+14:16:12 Build Finished. 0 errors, 0 warnings. (took 1s.28ms)
+
